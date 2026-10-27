@@ -7,7 +7,8 @@ from rich import print
 from bs4 import BeautifulSoup
 from readability import Document
 import trafilatura
-import re
+import requests
+from urllib.parse import urlparse
 
 
 load_dotenv()
